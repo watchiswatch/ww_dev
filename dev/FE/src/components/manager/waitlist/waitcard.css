@@ -1,0 +1,15 @@
+@keyframes moveLeftRight {
+  0% {
+    transform: translateX(0);
+  } /* 시작 위치 */
+  50% {
+    transform: translateX(10px);
+  } /* 중간에 오른쪽으로 10px 이동 */
+  100% {
+    transform: translateX(0);
+  } /* 시작 위치로 돌아옴 */
+}
+
+.move-left-right {
+  animation: moveLeftRight 1s infinite; /* 1초 동안 애니메이션을 진행하며 무한히 반복 */
+}

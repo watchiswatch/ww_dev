@@ -1,0 +1,24 @@
+.sectionfloatbackground {
+  position: absolute;
+  z-index: -1;
+  width: 1440px;
+  height: 600px;
+  margin-left: 40px;
+  background-color: rgb(242, 242, 242);
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -800px 0;
+  }
+}
+
+.moving-background {
+  background-image: url('/img/main/gym1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: moveBackground 10s infinite alternate; /* 5초 동안 움직이며, 무한 반복, alternate로 움직임을 번갈아 가며 진행 */
+}

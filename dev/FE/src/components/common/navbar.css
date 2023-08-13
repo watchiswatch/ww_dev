@@ -1,0 +1,13 @@
+.activeLink {
+  color: #ffa850;
+  padding-bottom: 5px;
+  border-bottom: #ffa850 solid 4px;
+  font-size: x-large;
+  font-family: 'jejuGodic';
+}
+
+.noactive {
+  color: white;
+  font-size: x-large;
+  font-family: 'jejuGodic';
+}
